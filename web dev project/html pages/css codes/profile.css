@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    height: 90vh;
+    background: linear-gradient(270deg, rgba(255, 0, 60, 0.813), rgba(255, 19, 196, 0.805));
+    min-width: auto;
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+    linear-gradient(rgba(255, 0, 0, 0.841),rgb(255, 0, 200));   
+    clip-path: circle(30% at left 25%);
+}
+
+.side_bar{
+    background: rgba(0, 191, 255, 0.196);
+    width: 350px;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    transition: 0.6s;
+    position: relative;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.316);  
+    overflow: hidden;
+    display: flex;
+}
+
+.side_bar ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 0px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.side_bar ul li{
+    position: relative;
+    width: 100%;
+}
+
+.side_bar ul li a{
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.side_bar ul li a:hover{
+    border-left: 5px solid;
+    border-color: rgb(0, 251, 255);
+    border-spacing: 15px;
+    background-color: rgba(0, 0, 0, 0.673)
+}
+
+.side_bar ul li a .icon{
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.side_bar ul li a .title{
+    line-height: 82px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.icon img{
+    height: 35px; 
+    width: 35px;
+    margin: 20px;
+}
+
+.profilecard{
+    min-width: 60vh;
+    height: 40vh;
+    background: rgba(16, 154, 200, 0.177);
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 4px 0px rgba(6, 6, 6, 0.672);
+    border: 1.2px solid rgb(180, 180, 180);
+}
+
+.profile_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(/images/2I5A9753.JPG);
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 1px 2px 0px rgba(6, 6, 6, 0.481);
+}
+
+#user_name{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.user_details{
+    position: absolute;
+    top: 58%;
+    left: 39%;
+    width: 50%;
+    height: 40%;
+    background-color: rgba(217, 167, 226, 0.456);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 1px 2px 0px rgba(6, 6, 6, 0.481);align-items: baseline;
+    flex-direction: column;
+}
+
+.user_details ul{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.user_details ul li{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_details ul li img{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    float: left;
+    border-radius: 50px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+#call_img, #location{
+    border-radius: 5px;
+}
+
+#info{
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.2px;
+}
+
+#profile_username{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_username h3{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color:aliceblue;
+    background-color: rgba(67, 92, 181, 0.167);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-style: italic;
+    font-size: 22px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.612);
+}

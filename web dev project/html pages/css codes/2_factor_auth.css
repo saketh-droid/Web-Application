@@ -1,0 +1,195 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    --clr: rgb(255, 0, 0);
+    --i:0;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    border-radius: 100px;
+    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+}
+
+::placeholder{
+    color: grey;
+    font-weight: 20px;
+    letter-spacing: 1px;
+}
+
+input{
+    display: inline;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.Box
+{
+    width: 40%;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    top: 8vh;
+    right: 36.3vh;
+    padding: 15px 15px 0 15px;
+}
+
+._2factor_auth
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.37));
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    backdrop-filter: blur(15px);
+    color: aliceblue;
+    box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.463);
+}
+
+#question_put{
+    width: 100%;
+    height: fit-content;
+}
+
+.input{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    width: 200px;
+    font-family: 'poppins', sans-serif;
+    overflow: visible;
+    font-weight: 24px;
+    background-color: rgba(6, 6, 6, 0.52);
+    transition: 0.5s;
+}
+
+.input:focus{
+    border-bottom: 2px solid rgb(255, 251, 1);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+._content_
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.691);
+    border-radius: 5px;
+    padding-top: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+._content_ video{
+    width: fit-content;
+    height: 140px;
+    border: 1px solid rgb(249, 2, 212);
+    box-shadow: 0 0 20px 2px var(--clr);
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.checkbox-btn{
+    padding: 10px;
+    width: 150px;
+    height: fit-content;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.567));
+    position: absolute;
+    left: 32.45%;
+    top: 25%;
+    z-index: 2;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid rgba(0, 0, 0, 0.647);
+    border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+}
+
+._meta_
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkbox-btn .status{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-btn .status span{
+    color: rgb(237, 237, 241);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.558);
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.button button{
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sono', sans-serif;
+    transition: 1s;
+    color: aliceblue;
+    background-color: var(--clr);
+    padding: 15px;
+    box-shadow: 0 0 2px var(--clr), 
+    0 0 7px var(--clr),
+    0 0 15px var(--clr),
+    0 0 25px var(--clr);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.button button:hover{
+    background-color: var(--clr);
+    box-shadow: 0 0 10px 2px var(--clr), 
+    0 0 30px 3px var(--clr),
+    0 0 60px 3px var(--clr),
+    0 0 100px 3px var(--clr);
+}

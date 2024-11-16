@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-factor authentication | Olala Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="2_factor_auth.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="/js_code.js">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-dark container-fluid shadow" style="height: 67px">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.pcXE4Hy4Tfq7S_s-NViQ3wHaHa&pid=Api&P=0" alt="Avatar Logo" style="width:50px;" class="rounded-pill"> 
+      </a>
+      <div class="container menu_bar">
+        <ul>  
+          <li><a href="bootstrap.html">Home</a></li>
+          <li><a href="#services" onclick="scroll_down('services')">Services</a></li>
+          <li><a href="#measures" onclick="scroll_down('measures')">Safety measures</a></li>
+          <li><a href="#">Rides</a></li>
+          <li><a href="#">Rides</a></li>
+        </ul>
+      </div> 
+      <div class="collapse navbar-collapse justify-content-end">
+        <div class="web_flow_style_input d-flex">
+          <input type="text">
+          <span>Search</span>  
+          <div class="account_btn">
+            <button class="btn" id="menu1" style="cursor: none;">sakeths788
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="side_bar d-flex">
+    <ul class="d-flex flex-column">
+      <li class="list active">
+        <a href="/html pages/css codes/profile_settings.html">
+          <span class="icon">
+            <img src="/images/user (1).png">
+          </span>
+          <span class="title">Profile Settings</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="/html pages/css codes/password_settings.html">
+          <span class="icon"><img src="/images/lock.png"></span>
+          <span class="title">Password Settings</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="/html pages/css codes/2_factor_auth.html">
+          <span class="icon"><img src="/images/two-step-verification-5353044-4468776.png" alt=""></span>
+          <span class="title">2Factor-Authentication</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="/html pages/css codes/">
+          <span class="icon"><img src="/images/credit-card.png" alt=""></span>
+          <span class="title">Payment Settings</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#">
+          <span class="icon"><img src="/images/exclusive.png" alt=""></ion-icon></span>
+          <span class="title">Olala Membership</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="checkbox-btn">
+    <div class="container _meta_">
+      <div class="status">
+        <span>2-FA STATUS</span>
+      </div>
+      <hr style="background-color: rgb(255, 255, 255);">
+      <div class="button">
+        <button onclick="FA()"><span id="2fa-status">Disabled</span></button>
+      </div>
+    </div>
+  </div>
+  <div class="container Box">
+    <div class="container _2factor_auth">
+      <div class="container _content_">
+        <video src="/images/security-scanning-3959236-3318018.mp4" autoplay muted loop preload="auto"></video>        
+        <hr>
+        <span>Secure your account with extra protection.</span>
+        <span>Add a secret question and type it's correct answer.</span>
+        <span>Be secured, Be protective...</span>
+        <hr>
+      </div>
+      <br>
+      <div style="border-radius: 3px;" class="inputs">
+        <input type="text" class="input"
+        placeholder="Type your secret question" required id="question_put">
+        <br>
+        <input type="text" name="question_field" class="input" id="question_put" placeholder="Type the correct answer" required>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid footer bg-dark p-5 my-5 d-flex justify-content-evenly">
+    <div class="container justify-content-evenly box1 text-light">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.pcXE4Hy4Tfq7S_s-NViQ3wHaHa&pid=Api&P=0" alt="" width="50px" height="50p">
+      <span class="text-light Olala">Olala</span><br><br>
+      <div class="container">
+        <p>Olala is a bike taxi company.It was founded by The Great Leaders.[Vijay Modi, Putin saki, Joe Gava]</p>
+        <i>Ride with us.Believe in us</i>
+      </div> 
+    </div>
+    <div class="container bg-dark box2 justify-content-end">
+      <h5>Company</h5>
+      <ul class="list-group">
+        <li class="list-item"><a href="#">Home</a></li>
+        <li class="list-item"><a href="#">Services</a></li>
+        <li class="list-item"><a href="#">About Us</a></li>
+        <li class="list-item"><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="container bg-dark box3">
+      <h5>Services</h5>
+      <ul class="list-group">
+        <li class="list-item"><a href="#">Deliver</a></li>
+        <li class="list-item"><a href="#">Food</a></li>
+        <li class="list-item"><a href="/html pages/css codes/ryde.html">Ride</a></li>
+        <li class="list-item"><a href="#">Reserve</a></li>
+      </ul>
+    </div>
+    <div class="container bg-dark box4 justify-content-center">
+      <h5>Follow Us</h5>
+      <li><a href="#" class="fa fa-facebook-official"></a></li>
+      <li><a href="#" class="fa fa-github"></a></li>
+      <li><a href="#" class="fa fa-linkedin"></a></li>
+      <li><a href="#" class="fa fa-instagram"></a></li>
+    </div>
+  </div>
+</body>
+</html>

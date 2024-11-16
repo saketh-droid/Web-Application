@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font: bolder;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.loginform{
+    height: 100vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 250px;
+    padding: 20px;
+}
+
+.icon{
+    background: url(ecology\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    height: 75px;
+    width: 100%;
+}
+
+.header a{
+    color: rgb(255, 98, 0);
+}
+
+.header h2{
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+}
+
+.header p{
+    padding-top: 10px;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 20px;
+}
+
+.img{
+    background-image: url(https://cdn.dribbble.com/users/1325237/screenshots/11873285/launch-01_4x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.login{
+    text-align: left;
+    padding: 30px;
+    max-height: 500px;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.input{
+    height: 25px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.remember{
+    padding-bottom: 3px;
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    bottom: 1px;
+}
+
+.log_in_btn{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    height: 35px;
+    background-color: rgb(255, 60, 0);
+    border-radius: 5px;
+    color: aliceblue;
+    border-color: rgb(255, 98, 0);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.forgot_pwd{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.forgot_pwd a{
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 98, 0);
+}
+
+.copyrights{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.copyrights p{
+    color: rgb(140, 126, 126);
+}
+
+.sup{
+    color: rgb(140, 126, 126);
+}
+
+.pri_policy{
+    height: 100%;
+    text-align: center;
+}
+
+.pri_policy ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.pri_policy li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.pri_policy ul li p{
+    color: rgb(169, 156, 156);
+}
+
+.pri_policy ul li a{
+    color: rgb(169, 156, 156);
+    padding: 10px;
+}

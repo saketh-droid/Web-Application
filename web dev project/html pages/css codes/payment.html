@@ -1,0 +1,77 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            margin:0;
+            padding:20px;background-color:#2d9eb5;
+        }
+        .m_invoice{
+            border:1px solid #ffffff;padding:20px;background-color:#ffffff
+        }
+        .m_invoice-header{
+            border-bottom:5px solid #2d9eb5;padding-bottom:20px;margin-bottom:20px
+        }
+        .m_invoice-header h2{
+            margin:0;color:#333
+        }
+        .m_invoice-header p{
+            margin:0;color:#777
+        }
+        .m_invoice-body{
+            margin-bottom:20px
+        }
+        .m_invoice-table{
+            width:100%;border-collapse:collapse
+        }
+        .m_invoice-table th,.m_invoice-table td{
+            padding:10px;text-align:left
+        }
+        .m_invoice-table th{
+            background-color:#f0f0f0;border-bottom:1px solid #ccc
+        }
+        .m_invoice-total{
+            text-align:right;font-weight:bold
+        }
+        .m_invoice-total p{margin:0}
+    </style>
+    </head>
+<body>
+    <div>
+      <div class="m_invoice">
+        <div class="m_invoice-header">
+          <h2>Taxi Invoice</h2>
+          <p>Date: June 22, 2023</p>
+        </div>
+        <div class="m_invoice-body">
+          <table class="m_invoice-table">
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>Trip</td>
+              <td>dycas road to balaji nagar</td>
+              <td>1</td>
+              <td>₹80.00</td>
+              <td>₹80.00</td>
+            </tr>
+            <tr>
+              <td>Waiting Time</td>
+              <td>Additional 10 minutes</td>
+              <td>1</td>
+              <td>₹10.00</td>
+              <td>₹10.00</td>
+            </tr>
+          </table>
+        </div>
+        <div class="m_invoice-total">
+          <p>Total: ₹90.00</p>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>

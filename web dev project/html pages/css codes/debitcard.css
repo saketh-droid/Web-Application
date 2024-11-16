@@ -1,0 +1,116 @@
+::placeholder{
+    color: rgba(41, 41, 41, 0.794);
+    font-family: 'Itim', cursive;
+}
+
+canvas{
+    background: url(https://images.ctfassets.net/q8mvene1wzq4/01ne1VUUWISYY5ElvfsO5x/10d772dba035517fdb3201c767712d48/ezgif-1-cd227c2dc946-60per.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+}
+
+.first_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_name input{
+    width: 35%;
+    height: 65px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(0, 217, 255, 0.518);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    outline: none;
+    padding: 8px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    font-weight:normal;
+}
+
+.first_name input:focus{
+    color: rgb(0, 0, 0);
+    width: 41%;
+    transition: 0.5s;
+    border: 2px solid rgb(0, 4, 255);
+}
+
+.java_script_image{
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    align-items:center;
+}
+
+.first_name {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#card_detail{
+    width: 15%;
+    height: 65px;
+    border: 2px solid rgba(255, 255, 255, 0.715);
+    background-color: rgb(109, 238, 255);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    outline: none;
+    padding: 8px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    font-weight:normal;
+}
+
+#card_detail:focus{
+    color: rgb(0, 0, 0);
+    width: 19.5%;
+    transition: 0.5s;
+    border: 2px solid blue;
+}
+
+#cvv_exp_date{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+}
+
+#button{
+    height: 55px;
+    width: 30vh;
+    border-radius: 6px;
+    padding: 8px;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    background-color:rgba(255, 145, 145, 0.686);
+    transition-duration: 0.4s;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 8px 0px rgba(236, 0, 0, 0.551);
+    border: 2px solid red;
+}
+
+#button:hover{
+    background-color: rgba(123, 105, 255, 0.442);
+    color:rgb(0, 0, 0);
+    width: 35vh;
+    border: 2px solid blue;
+    transform: translate3d(0, -6px, 0);
+    box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.418);
+}
+
+#button a{
+    color: aliceblue;
+}
